@@ -12,5 +12,5 @@ jobs:
     - name: Install requirements
       run: pip3 install -r requirements.txt
     - name: Run Auto Rclone
-      run: python3 run.py -s 1RrndkL2vYOVmq_ye8sRQymgTFBtR3Hqq -d 0AJ3N5U56HkZoUk9PVA -dp /mySeries -b 1 -e 600 -sa ./accounts
+      run: python3 run.py -s 1RrndkL2vYOVmq_ye8sRQymgTFBtR3Hqq -d 0AJ3N5U56HkZoUk9PVA -dp /mySeries -b 1 -e 600 -sa accounts
 
